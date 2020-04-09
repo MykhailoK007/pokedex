@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/pokdex/static/css/main.4e2ccc72.chunk.css",
-    "main.js": "/pokdex/static/js/main.6c0deac7.chunk.js",
-    "main.js.map": "/pokdex/static/js/main.6c0deac7.chunk.js.map",
+    "main.js": "/pokdex/static/js/main.cc176a05.chunk.js",
+    "main.js.map": "/pokdex/static/js/main.cc176a05.chunk.js.map",
     "runtime-main.js": "/pokdex/static/js/runtime-main.867d782f.js",
     "runtime-main.js.map": "/pokdex/static/js/runtime-main.867d782f.js.map",
-    "static/js/2.1b60a6fe.chunk.js": "/pokdex/static/js/2.1b60a6fe.chunk.js",
-    "static/js/2.1b60a6fe.chunk.js.map": "/pokdex/static/js/2.1b60a6fe.chunk.js.map",
+    "static/js/2.f7f04ae1.chunk.js": "/pokdex/static/js/2.f7f04ae1.chunk.js",
+    "static/js/2.f7f04ae1.chunk.js.map": "/pokdex/static/js/2.f7f04ae1.chunk.js.map",
     "index.html": "/pokdex/index.html",
-    "precache-manifest.376ca6925dd45fa7a61eb357483ba9e0.js": "/pokdex/precache-manifest.376ca6925dd45fa7a61eb357483ba9e0.js",
+    "precache-manifest.725771ee0f5dd142792c4985f1a3ef63.js": "/pokdex/precache-manifest.725771ee0f5dd142792c4985f1a3ef63.js",
     "service-worker.js": "/pokdex/service-worker.js",
     "static/css/main.4e2ccc72.chunk.css.map": "/pokdex/static/css/main.4e2ccc72.chunk.css.map",
-    "static/js/2.1b60a6fe.chunk.js.LICENSE.txt": "/pokdex/static/js/2.1b60a6fe.chunk.js.LICENSE.txt"
+    "static/js/2.f7f04ae1.chunk.js.LICENSE.txt": "/pokdex/static/js/2.f7f04ae1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.867d782f.js",
-    "static/js/2.1b60a6fe.chunk.js",
+    "static/js/2.f7f04ae1.chunk.js",
     "static/css/main.4e2ccc72.chunk.css",
-    "static/js/main.6c0deac7.chunk.js"
+    "static/js/main.cc176a05.chunk.js"
   ]
 }
