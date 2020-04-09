@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import {pokemonAPI} from "./API/api";
 import CardsContainer from "./Components/Cards/CardsContainer";
 
 function App() {
 
   return (
-        <div className="">
-          <header className="">POKEDEX</header>
-          <CardsContainer/>
+        <div>
+          <h1 className="header">Pokedex</h1>
+            <div>
 
-
+            </div>
+                <CardsContainer/>
         </div>
 
   );

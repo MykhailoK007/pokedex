@@ -8,17 +8,30 @@ const pokemonList = axios.create({
 
 
 export const pokemonAPI= {
-    getPokemonsList() {
-       return  pokemonList.get('pokemon/?limit=12')
-            .then(responce => {
-                return responce.data
+
+    getPokemonsList(offset) {
+
+
+       return  pokemonList.get(`pokemon/?limit=12&offset=${offset}`)
+            .then(response => {
+
+                return response.data
             })
 
     },
     getPokemonByName(name){
-        return pokemonList(`ability/${name}`)
-            .then(responce => {
-                return responce.data
+
+        return   pokemonList(`pokemon/${name}`)
+            .then(  response => {
+
+                return  response.data
+            })
+    },
+    getTypeList(){
+        return pokemonList.get('type?limit=999')
+            .then(response => {
+                return response.data
             })
     }
+
 }

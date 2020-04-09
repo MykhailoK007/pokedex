@@ -1,0 +1,44 @@
+.currentCardWrapper{
+    width:30%;
+    justify-content: center;
+}
+.currentCard{
+    position: fixed;
+    width: 25%;
+    height: 600px;
+    margin: 0% 5%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.table{
+    border-collapse:collapse;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4%;
+
+}
+tr,td{
+    border:1px solid black;
+    text-align: center;
+    min-width: 50px;
+    height: 25px;
+}
+
+.avatar {
+    width: 200px;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .currentCard{
+        width: 32%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .currentCard{
+        width: 40%;
+        margin-left:4%;
+    }
+}
