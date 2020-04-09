@@ -2,7 +2,7 @@ import * as axios from 'axios';
 
 
 const pokemonList = axios.create({
-    baseURL:'http://pokeapi.co/api/v2/'
+    baseURL:'https://pokeapi.co/api/v2/'
 });
 
 
