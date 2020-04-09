@@ -7,9 +7,6 @@ function App() {
   return (
         <div>
           <h1 className="header">Pokedex</h1>
-            <div>
-
-            </div>
                 <CardsContainer/>
         </div>
 

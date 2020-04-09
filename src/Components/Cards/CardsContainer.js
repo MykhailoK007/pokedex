@@ -6,7 +6,7 @@ import {
     getPokemonsThunk,
     getTypeList,
     setOffset,
-    setPokemonsThunkWithFilter
+
 } from "../../redux/Card-reducer";
 import Cards from "./Cards";
 import classes from './Cards.module.css'
